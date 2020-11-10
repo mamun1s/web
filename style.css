@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    .clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    }
+   
+    
+ /* defolt code */
+ .fix-width{
+    width: 1270px;
+margin: auto;
+}
+    img{
+        max-width: 100%;
+    }
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+       /* headeer css */
+    .header{
+        background: #9b59b6;}
+    .header-left{
+        float: 30%;
+        float: left;
+        width: 30%;}
+    .header-left img{
+        width: 84px;
+        height: auto;
+
+    }
+
+    /* header right */
+    .header-right{float: right;width: 70%;}
+    .header-right ul{
+        text-align: right;
+    }
+    .header-right ul li{
+        display: inline-block;
+        margin-left: -4px;
+    }
+    .header-right ul li a{
+        display: block;
+        text-decoration: none;
+        font-size: 21px;
+        padding: 0 30px;
+        line-height: 75px;
+        color: white;
+        border-right: 1px solid white;
+        transition: .3s;
+        transform: scale();
+    }
+    .header-right ul li a:hover{
+background-color: #8e44ad;
+transform: scale(1.2);
+    }
+
+    /* banner banner */
+    .banner{
+        background-image: url(https://spinecodes.in/images/slider/bg3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 240px 0;
+        background-attachment: fixed;
+    }
+.banner-text h2{
+    background-color: rgba(24, 17, 17, 0.6);
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-bottom: 11px;
+}
+.banner-text h1{
+    background-color: rgba(142,68,173,.5);
+    display: ;
+    font-size: 40px;
+    max-width: 471px;
+    margin: auto;
+    padding: 3px 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+
+}
+/* about */
+.about{
+
+}
+.about h2{
+    font-size: 29px;
+margin-bottom: 16px;
+margin-top: 35px;
+border-bottom: 2px solid #ddd;
+}
+.about p{
+    max-width: 550px;
+    margin: auto;
+
+}
+
+/* service section */
+
+.service{
+margin-top: 20px;
+}
+
+.service-item{
+    float: left;
+    width: 32.3%;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 1px;
+margin-right: 1px;
+padding: 20px 0;
+}
+
+.service-item span{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #9b59b6;
+    margin: auto;
+    font-size: 48px;
+    color: white;
+    border-radius: 20px 0 20px 0;
+    line-height: 60px;
+}
+
+/* blog contenter */
+.blog-container{
+    margin-top: 20px;
+}
+
+.blog-left{
+    width: 70%;
+    float: left;
+}
+.blog-item img{
+max-width: 300px;
+float: left;
+padding-right: 12px;
+}
+
+
+
+.blog-right{
+float: right;
+width: 25%;
+
+}
+.blog-right h2{
+    font-size: 30px;
+   
+    border-bottom: 3px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+
+}
+.blog-right ul{
+    list-style: none;
+}
+.blog-right ul li{
+
+  
+border: 1px solid #ddd;
+background: rgb(226, 214, 214);
+font-size: 22px;
+padding: 11px;
+margin-bottom: 10px;
+border-radius: 9px;
+}
+
+/* fotter part */
+
+.fotter{
+    background: rgb(33, 31, 31);
+    color: white;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+.fotter-left{
+float: left;
+width: 40%;
+}
+.fotter-left p{
+    line-height: 24px;
+    font-size: 18px;
+}
+}
+
+
+.fotter-right{
+    float: right;
+    width: 60%;
+}
+
+.social{
+text-align: right;
+}
+.social li{
+    list-style: none;
+    display: inline-block;
+}
+.social li a{
+font-size: 30px;
+color: white;
+padding-left: 10px;
+}
